@@ -1,23 +1,20 @@
 #include <stdio.h>
 
-double calculate_y(double x) {
-    double result;
+int main(void) {
+    float x;
+    float y;
 
-    if (x > 20.0) {
-        result = -x + 9.0;
-    } else {
-        printf("function undefined\n");
-        result = 0.0;
+    printf("x: ");
+    if (scanf("%f", &x) != 1) {
+        printf("Error.\n");
+        return 1;
     }
 
-    return result;
-}
-int main() {
-    double x = 0;
-    double y = calculate_y(x);
-
-    if (x > 20.0) {
-        printf("For x = %.2f, y = %.2f\n", x, y);
+    if (x > 20.0f) {
+        y = -x + 9.0f;
+        printf("y(x) = %.2f\n", y);
+    } else {
+        printf("Function undefined.\n");
     }
 
     return 0;
