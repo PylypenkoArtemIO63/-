@@ -1,0 +1,8 @@
+[
+{
+  "directory": "D:/CLion 2026.2.3.1/Labs/Lab3/cmake-build-debug",
+  "command": "\"D:\\CLion 2026.3.0.1\\bin\\mingw\\bin\\gcc.exe\" -g -std=gnu11 -fdiagnostics-color=always -o CMakeFiles\\Lab3.dir\\код1.c.obj -c \"D:\\CLion 2026.2.3.1\\Labs\\Lab3\\код1.c\"",
+  "file": "D:/CLion 2026.2.3.1/Labs/Lab3/код1.c",
+  "output": "D:/CLion 2026.2.3.1/Labs/Lab3/cmake-build-debug/CMakeFiles/Lab3.dir/код1.c.obj"
+}
+]
